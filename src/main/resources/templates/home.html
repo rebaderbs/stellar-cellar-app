@@ -8,7 +8,9 @@
 </head>
 <body>
 
-    <div th:insert="fragments/headers"></div>
+<!--    <div th:insert="fragments/headers"></div>-->
+
+    <div th:replace="fragments/headers :: header-home"></div>
 
     <h1>Welcome!</h1>
 
