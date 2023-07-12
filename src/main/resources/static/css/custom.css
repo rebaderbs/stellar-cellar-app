@@ -1,8 +1,12 @@
 body {
-    background-color: #FFF9FB;
+    background-color: #FFF9FB,
+    color: #2C141C;
 }
 
 .btn {
     background-color: #542434;
 }
 
+.navbar {
+    background-color: #6B2D40;
+}
